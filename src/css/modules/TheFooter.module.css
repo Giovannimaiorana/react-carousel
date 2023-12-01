@@ -1,0 +1,10 @@
+.FooterStyle {
+    background-color: rgb(45, 45, 45);
+    height: 100px;
+}
+
+.FooterContent {
+    color: white;
+    text-align: center;
+    padding: 40px;
+}

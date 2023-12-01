@@ -1,0 +1,35 @@
+.CardContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.Card {
+    width: 500px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.imgSize {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.content {
+    padding: 10px;
+}
+
+.colorTag {
+    width: 30px;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.tagContainer {
+    margin-bottom: 30px;
+}
