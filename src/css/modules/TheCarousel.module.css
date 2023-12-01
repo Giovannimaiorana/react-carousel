@@ -10,6 +10,7 @@
     margin: auto;
     border-radius: 30px;
     position: relative;
+    border: none;
 
 }
 
@@ -27,6 +28,7 @@
     position: absolute;
     top: 50%;
     left: 10px;
+    color: white;
 }
 .buttonNext{
     width: 30px;
@@ -37,4 +39,44 @@
     position: absolute;
     top: 50%;
     right: 10px;
+    color: white;
+}
+.bulletsContainer{
+    width: 150px;
+    height: 30px;
+    background-color: rgba(100, 100, 100, 0.4);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 10px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bullets{
+    width: 12px;
+  height: 12px;
+  background-color: rgba(100, 100, 100, 0.9); 
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.activeBullet{
+    width: 12px;
+    height: 12px;
+    background-color:white; 
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.testoCard{
+    position: absolute;
+    width: 300px;
+    left: 30px;
+    bottom: 50px;
+    background-color: rgba(100, 100, 100, 0.5);
+    padding: 20px;
+    border-radius: 30px;
+    color: white;
 }
