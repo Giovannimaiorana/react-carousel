@@ -1,0 +1,40 @@
+.carouselContainer {
+    width: 100%;
+    padding: 30px;
+}
+
+.carouselElement {
+    width: 600px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 30px;
+    position: relative;
+
+}
+
+.imgStyle {
+    height: 100%;
+    width: 600px;
+    border-radius: 30px;
+}
+.buttonPrev{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: none;
+    background-color: rgba(100, 100, 100, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 10px;
+}
+.buttonNext{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: none;
+    background-color: rgba(100, 100, 100, 0.9);
+    position: absolute;
+    top: 50%;
+    right: 10px;
+}
